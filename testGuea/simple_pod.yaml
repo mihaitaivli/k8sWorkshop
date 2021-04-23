@@ -1,0 +1,11 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: simple-server
+  labels:
+    tier: frontend
+spec:
+  containers:
+    - name: simple-server
+      image: docker.artifactory.euw.platformservices.io/miv01/simple-server:1.0
+      imagePullPolicy: IfNotPresent
