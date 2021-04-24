@@ -1,7 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: simple-server
+  name: simple-service
 spec:
   selector:
     tier: frontend
