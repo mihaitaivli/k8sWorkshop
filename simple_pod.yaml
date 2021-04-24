@@ -9,3 +9,5 @@ spec:
   containers:
     - name: simple-server
       image: mihaitaivli/simple_server:1.0
+      ports:
+        - containerPort: 8081
