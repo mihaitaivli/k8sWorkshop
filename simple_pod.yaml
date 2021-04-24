@@ -2,7 +2,7 @@ kind: Pod
 apiVersion: v1
 metadata:
   name: simple-server
-  namespace: miv01
+  namespace: kube-public
   labels:
     tier: frontend
 spec:
